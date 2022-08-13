@@ -4,6 +4,7 @@
     font-family: Cordel;
     src: url(fontes/EldesCordel-Demo.otf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
@@ -11,8 +12,9 @@
 
 
 :root{
-    --font01: 'Sriracha', cursive;
+    --fonte01: 'Sriracha', cursive;
     --fonte02:'Passion One', cursive;
+    --fonte04: 'Neucha', cursive;
     --fonte03: 'Verdana', Helvetica, sans-serif;
 }
 *{
@@ -21,10 +23,10 @@
     font-size: 1em;
 }
 
-html, body{
+body{
     min-height: 100%vh;
     background-color: darkgray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Neucha', cursive;
 }
 
 header{
