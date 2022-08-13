@@ -24,7 +24,7 @@
 html, body{
     min-height: 100%vh;
     background-color: darkgray;
-    font-family: var(--fonte02);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 header{
