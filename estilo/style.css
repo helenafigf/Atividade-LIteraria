@@ -18,7 +18,7 @@
     --fonte03: 'Verdana', Helvetica, sans-serif;
 }
 *{
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     font-size: 1em;
 }
@@ -26,7 +26,7 @@
 body{
     min-height: 100%vh;
     background-color: darkgray;
-    font-family: 'Neucha', cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -66,6 +66,8 @@ section{
 
 section > p {
     padding-bottom: 2em;
+    font-style: italic;
+    font-weight: 600;
 }
 section.normal{
     background-color: rgb(250, 220, 136);
